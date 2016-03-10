@@ -1,0 +1,458 @@
+# Translation of the WordPress plugin bowe-codes by imath (twitter.com/imath).
+# Copyright (C) 2010 imath (twitter.com/imath)
+# This file is distributed under the same license as bowe-codes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bowe-codes 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bowe-codes\n"
+"POT-Creation-Date: 2013-06-30 16:37:43+00:00\n"
+"PO-Revision-Date: 2013-06-30 18:38+0100\n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: bowe-codes.php:56 bowe-codes.php:58
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors on triche?"
+
+#: includes/admin-functions.php:36 includes/admin-functions.php:172
+#: includes/admin-functions.php:200 includes/widget.php:176
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin-functions.php:37 includes/admin-functions.php:173
+#: includes/admin-functions.php:202 includes/widget.php:177
+msgid "No"
+msgstr "Non"
+
+#: includes/admin-functions.php:109
+msgid "Choose the shortcode you want to use"
+msgstr "Choisissez le shortcode que vous souhaitez utiliser"
+
+#: includes/admin-functions.php:152 includes/admin.php:269
+#: includes/admin.php:270
+msgid "Bowe Codes Settings"
+msgstr "Réglages Bowe Codes"
+
+#: includes/admin-functions.php:160
+msgid "Default css file"
+msgstr "Feuille de style par défaut"
+
+#: includes/admin-functions.php:161
+msgid ""
+"By creating a file named bowe-codes.css in the css folder of your active "
+"theme, it will be loaded instead of this one"
+msgstr ""
+"En créant un fichier nommé bowe-codes.css au sein du dossier css de votre "
+"thème actif, il remplacera celui fournit par défaut par le plugin"
+
+#: includes/admin-functions.php:170
+msgid "Or you can disable default css.."
+msgstr "Ou vous pouvez neutraliser la feuille de style par défaut"
+
+#: includes/admin-functions.php:181
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/admin.php:96 includes/admin.php:97 includes/admin.php:118
+msgid "Bowe Codes Editor"
+msgstr "Editeur Bowe Codes"
+
+#: includes/admin.php:125
+msgid "Insert Shortcode"
+msgstr "Insérer le Shortcode"
+
+#: includes/admin.php:125
+msgid "Cancel"
+msgstr "Abandonner"
+
+#: includes/admin.php:179
+msgid "Please select a shorcode in the list"
+msgstr "Merci de sélectionner un shortcode dans la liste"
+
+#: includes/admin.php:180
+msgid "is a required field"
+msgstr "est un champ requis"
+
+#: includes/admin.php:182 includes/admin.php:309
+msgid "Building the form, please wait..."
+msgstr "Construction du formulaire en cours, merci de patienter"
+
+#: includes/admin.php:183
+msgid "Put your restricted content here"
+msgstr "Insérer le contenu à restreindre ici"
+
+#: includes/admin.php:206
+msgid "Build Your Bowe Code"
+msgstr "Elaborez votre Bowe Code"
+
+#: includes/admin.php:293
+msgid "Allow child blogs to use Bowe Codes"
+msgstr "Autoriser les blogs enfants à utiliser Bowe Codes"
+
+#: includes/functions.php:447
+msgid "No new notifications."
+msgstr "Pas de nouvelles notifications"
+
+#: includes/functions.php:767
+msgid "No group id or group slug were given"
+msgstr "Merci de renseigner l&#39;identifiant du groupe ou son slug"
+
+#: includes/functions.php:775
+msgid "The group slug given is unknown"
+msgstr "Le slug du groupe est inconnu"
+
+#: includes/functions.php:780
+msgid "You must be loggedin to access to this content"
+msgstr "Vous devez être connecté pour accéder à ce contenu"
+
+#: includes/functions.php:796
+msgid "You must be a member of the group %s to access this content"
+msgstr "Vous devez être un membre du groupe %s pour accéder à ce contenu"
+
+#: includes/functions.php:841 includes/functions.php:846
+#: includes/functions.php:849
+msgid "From:"
+msgstr "De:"
+
+#: includes/functions.php:849 includes/functions.php:852
+msgid "View Message"
+msgstr "Voir le message"
+
+#: includes/shortcodes.php:102 includes/shortcodes.php:112
+#: includes/shortcodes.php:129 includes/shortcodes.php:138
+#: includes/shortcodes.php:155 includes/shortcodes.php:166
+#: includes/shortcodes.php:184 includes/shortcodes.php:194
+#: includes/shortcodes.php:221 includes/shortcodes.php:231
+#: includes/shortcodes.php:248
+msgid "Avatar"
+msgstr "Avatar"
+
+#: includes/shortcodes.php:103 includes/shortcodes.php:113
+#: includes/shortcodes.php:130 includes/shortcodes.php:139
+#: includes/shortcodes.php:156 includes/shortcodes.php:167
+#: includes/shortcodes.php:185 includes/shortcodes.php:195
+#: includes/shortcodes.php:222 includes/shortcodes.php:232
+#: includes/shortcodes.php:249
+msgid "Size in pixels"
+msgstr "Taille en pixels de l&#39;avatar"
+
+#: includes/shortcodes.php:104
+msgid "Login of the user"
+msgstr "Login utilisateur"
+
+#: includes/shortcodes.php:105 includes/shortcodes.php:122
+#: includes/shortcodes.php:131 includes/shortcodes.php:149
+#: includes/shortcodes.php:158 includes/shortcodes.php:177
+#: includes/shortcodes.php:187 includes/shortcodes.php:206
+#: includes/shortcodes.php:213 includes/shortcodes.php:224
+#: includes/shortcodes.php:240 includes/shortcodes.php:251
+msgid "Css Class"
+msgstr "Classe Css"
+
+#: includes/shortcodes.php:107
+msgid "Displays a specific member."
+msgstr "Montre un membre spécifique"
+
+#: includes/shortcodes.php:111 includes/shortcodes.php:128
+#: includes/shortcodes.php:137 includes/shortcodes.php:165
+#: includes/shortcodes.php:183 includes/shortcodes.php:193
+#: includes/shortcodes.php:219 includes/shortcodes.php:230
+#: includes/shortcodes.php:247
+msgid "Amount"
+msgstr "Nombre"
+
+#: includes/shortcodes.php:114 includes/shortcodes.php:140
+#: includes/shortcodes.php:168 includes/shortcodes.php:196
+#: includes/shortcodes.php:233
+msgid "Order type"
+msgstr "Type de classement"
+
+#: includes/shortcodes.php:115 includes/shortcodes.php:141
+#: includes/shortcodes.php:169 includes/shortcodes.php:197
+#: includes/shortcodes.php:234
+msgid "Last Active"
+msgstr "Dernièrement actif"
+
+#: includes/shortcodes.php:116 includes/shortcodes.php:142
+msgid "Newest Registered"
+msgstr "Derniers inscrits"
+
+#: includes/shortcodes.php:117 includes/shortcodes.php:143
+#: includes/shortcodes.php:171 includes/shortcodes.php:199
+#: includes/shortcodes.php:235
+msgid "Random order"
+msgstr "Ordre Aléatoire"
+
+#: includes/shortcodes.php:118 includes/shortcodes.php:144
+#: includes/shortcodes.php:172 includes/shortcodes.php:200
+msgid "By popularity"
+msgstr "Selon Popularité"
+
+#: includes/shortcodes.php:121
+msgid ""
+"Member Login or comma separated list of member logins to stick at the top"
+msgstr ""
+"Membres en vedette (liste de logins séparés par des virgules sans espace "
+"entre les virgules, si plusieurs)"
+
+#: includes/shortcodes.php:124
+msgid "Displays members with or without avatars."
+msgstr "Affiche des membres avec ou sans avatars"
+
+#: includes/shortcodes.php:133
+msgid "Displays the latest notifications from the currently logged in user."
+msgstr "Affiche les dernières notifications du membre connecté."
+
+#: includes/shortcodes.php:147 includes/shortcodes.php:204
+msgid "Dynamic"
+msgstr "Dynamique"
+
+#: includes/shortcodes.php:151
+msgid ""
+"Displays the friends of the current logged in user, or the friends of the "
+"member profile currently being viewed if the dynamic option is on."
+msgstr ""
+"Affiche les amis du membre connecté, ou ceux du membre affiché dont le "
+"profil est consulté si l&#39;option dynamique est activée."
+
+#: includes/shortcodes.php:157 includes/shortcodes.php:186
+msgid "Group slug"
+msgstr "Slug du groupe"
+
+#: includes/shortcodes.php:159
+msgid "Display group description"
+msgstr "Afficher la description du groupe"
+
+#: includes/shortcodes.php:161
+msgid "Displays a specific group."
+msgstr "Montre un groupe en particulier"
+
+#: includes/shortcodes.php:170 includes/shortcodes.php:198
+#: includes/shortcodes.php:264
+msgid "Newest Created"
+msgstr "Dernièrement créés"
+
+#: includes/shortcodes.php:173 includes/shortcodes.php:201
+#: includes/shortcodes.php:236 includes/shortcodes.php:259
+#: includes/shortcodes.php:260
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: includes/shortcodes.php:176
+msgid "Group slug or comma  separated list of group slugs to stick at the top"
+msgstr ""
+"Groupes en vedette (liste de slugs de groupe séparés par des virgules sans "
+"espaces entre les virgules, si plusieurs)"
+
+#: includes/shortcodes.php:179
+msgid "Displays groups with or without avatars."
+msgstr "Montre des groupes en affichant ou non leurs avatars"
+
+#: includes/shortcodes.php:189
+msgid "Displays users for a given group."
+msgstr "Montre les utilisateurs d&#039;un groupe en particulier"
+
+#: includes/shortcodes.php:208
+msgid ""
+"Displays the groups of the currently logged in user or the groups of the "
+"member profile currently being viewed if dynamic option is on."
+msgstr ""
+"Montre les groupes du membre connecté ou de ceux du membre affiché si son "
+"profil est consulté si l&#39;option Dynamique est activée."
+
+#: includes/shortcodes.php:212
+msgid "Group id or slug"
+msgstr "Identifiant ou Slug du groupe"
+
+#: includes/shortcodes.php:215
+msgid "Restrict post content to group members"
+msgstr ""
+"Restreint l&#039;accès au contenu d&#039;un article aux membres d&#039;un "
+"groupe"
+
+#: includes/shortcodes.php:220
+msgid "Display subject"
+msgstr "Afficher le sujet"
+
+#: includes/shortcodes.php:223
+msgid "Excerpt length"
+msgstr "Longueur du résumé"
+
+#: includes/shortcodes.php:226
+msgid "Displays the latest messages from the currently logged in user."
+msgstr "Affiche les derniers messages du membre connecté"
+
+#: includes/shortcodes.php:239
+msgid "Blog id or comma separated list of blog ids to stick at the top"
+msgstr ""
+"Blogs en vedette (liste d'identifiants - id - de blog séparés par des "
+"virgules, sans espace entre les virgules, si plusieurs)"
+
+#: includes/shortcodes.php:241
+msgid "Display blog description"
+msgstr "Afficher la description du blog"
+
+#: includes/shortcodes.php:243
+msgid "Shows blogs from across the site."
+msgstr "Montre les blogs du réseau de blogs."
+
+#: includes/shortcodes.php:250
+msgid "Activity type"
+msgstr "Type d&#39;activités"
+
+#: includes/shortcodes.php:253
+msgid "Shows the latest activities for a given type"
+msgstr "Affiche les dernières activités selon le type choisi"
+
+#: includes/shortcodes.php:258
+msgid "xProfile field Name (separated by a comma if more than one)"
+msgstr ""
+"Champ(s) xProfile (liste de champs séparés par des virgules si plusieurs)"
+
+#: includes/widget.php:22
+msgid "Build widgets with Bowe Codes"
+msgstr "Elaborez vos widgets avec Bowe Codes"
+
+#: includes/widget.php:23
+msgctxt "widget name"
+msgid "(Bowe Codes) Widget"
+msgstr "(Bowe Codes) Widget"
+
+#: includes/widget.php:48
+msgid "Bowe Codes widget"
+msgstr "Bowe Codes widget"
+
+#: includes/widget.php:115
+msgid "Title:"
+msgstr "Titre:"
+
+#: includes/widget.php:116
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/widget.php:118
+msgid "Choose shortcode"
+msgstr "Choisir le Shortcode"
+
+#: includes/widget.php:200
+msgid "* required"
+msgstr "* requis"
+
+#. Plugin Name of the plugin/theme
+msgid "Bowe Codes"
+msgstr "Bowe Codes"
+
+#. Plugin URI of the plugin/theme
+msgid "http://imathi.eu/tag/bowe-codes/"
+msgstr "http://imathi.eu/tag/bowe-codes/"
+
+#. Description of the plugin/theme
+msgid ""
+"adds BuddyPress specific shortcodes to display members/groups/blogs/forums"
+msgstr ""
+"Des shortcodes BuddyPress pour afficher vos membres, groupes, blogs et "
+"activités"
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr "imath"
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu/"
+msgstr "http://imathi.eu/"
+
+#~ msgid "BCodes Options"
+#~ msgstr "Options BCodes"
+
+#~ msgid "In reply to:"
+#~ msgstr "En réponse à:"
+
+#~ msgid "Add BP Content"
+#~ msgstr "Ajouter du contenu BuddyPress"
+
+#~ msgid "Hide button for child blogs"
+#~ msgstr "Cacher le bouton aux blogs enfants"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Content of default.css (for info)"
+#~ msgstr "Contenu de la feuille de style par défaut (pour info)"
+
+#~ msgid "Show"
+#~ msgstr "Afficher"
+
+#~ msgid "Hide"
+#~ msgstr "Masquer"
+
+#~ msgid "Insert"
+#~ msgstr "Insérer"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "List of Available Bowe Codes"
+#~ msgstr "Liste des shortcodes disponibles"
+
+#~ msgid "ShortCode Name"
+#~ msgstr "Nom du shortcode"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "Member login"
+#~ msgstr "Login du membre"
+
+#~ msgid "xprofile fields (comma separated list without spaces between commas)"
+#~ msgstr ""
+#~ "Champs xprofile (liste de champs séparés par des virgules sans espaces "
+#~ "entre les virgules)"
+
+#~ msgid "Custom title/content"
+#~ msgstr "Titre ou contenu personnalisé"
+
+#~ msgid "Dynamic (show friends of displayed member if viewing his profile)"
+#~ msgstr ""
+#~ "Dynamique (montre les amis du membre affiché lorsque son profil est "
+#~ "consulté)"
+
+#~ msgid "Dynamic (show groups of displayed member if viewing his profile)"
+#~ msgstr ""
+#~ "Dynamique (montre les groupes du membre affiché lorsque son profil est "
+#~ "consulté)"
+
+#~ msgid "Subject"
+#~ msgstr "Objet"
+
+#~ msgid "Excerpt (number of words)"
+#~ msgstr "Résumé (nombre de mots)"
+
+#~ msgid "Shows posts from across the site."
+#~ msgstr "Affiche des articles des blogs du réseau"
+
+#~ msgid "Shows latest forum topics or replies."
+#~ msgstr "Affiche les derniers sujets ou réponses d&#039;un forum"
+
+#~ msgid "Forum topics"
+#~ msgstr "Sujets de forum"
+
+#~ msgid "Forum replies"
+#~ msgstr "Réponses de forum"
+
+#~ msgid "Please type the login of a member"
+#~ msgstr "Merci de renseigner un login de membre"
+
+#~ msgid "Please type the slug of a group"
+#~ msgstr "Merci de renseigner un slug de groupe"
+
+#~ msgid "Please type the id or slug of a group"
+#~ msgstr "Merci de renseigner un identifiant ou un slug de groupe"
+
+#~ msgid "The content to hide"
+#~ msgstr "Le contenu à masquer"

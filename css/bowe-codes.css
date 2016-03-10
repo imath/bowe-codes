@@ -1,0 +1,163 @@
+/* ========================= */
+/* ! BuddyPress Shortcodes   */
+/* ========================= */
+
+.my_member ul.my_member-ul,
+.my_members ul.my_members-ul,
+.my_notifications ul.my_notifications-ul,
+.my_friends ul.my_friends-ul,
+.my_groups ul.my_groups-ul,
+.my_group ul.my_group-ul,
+.group_users ul.group_users-ul,
+.user_groups ul.user_groups-ul,
+.my_messages ul.my_messages-ul,
+.my_activity ul.my_activity-ul,
+.my_blogs ul.my_blogs-ul {
+    border-top: 1px solid #EAEAEA;
+    clear:both;
+}
+
+.my_member ul.my_member-ul p,
+.my_members ul.my_members-ul p,
+.my_notifications ul.my_notifications-ul p,
+.my_friends ul.my_friends-ul p,
+.my_groups ul.my_groups-ul p,
+.my_group ul.my_group-ul p,
+.group_users ul.group_users-ul p,
+.user_groups ul.user_groups-ul p,
+.my_messages ul.my_messages-ul p,
+.my_activity ul.my_activity-ul p,
+.my_blogs ul.my_blogs-ul p {
+    margin: 5px 0;
+}
+
+
+.my_member ul.my_member-ul li,
+.my_members ul.my_members-ul li,
+.my_notifications ul.my_notifications-ul li,
+.my_friends ul.my_friends-ul li,
+.my_groups ul.my_groups-ul li,
+.my_group ul.my_group-ul li,
+.group_users ul.group_users-ul li,
+.user_groups ul.user_groups-ul li,
+.my_messages ul.my_messages-ul li,
+.my_activity ul.my_activity-ul li,
+.my_blogs ul.my_blogs-ul li {
+    overflow: hidden;
+    padding: 15px 0px;
+    list-style: none;
+    border-bottom: 1px solid #EAEAEA;
+    margin:0;
+}
+.my_member .my_member-ul .bc_avatar,
+.my_members .my_members-ul .bc_avatar,
+.my_notifications .my_notifications-ul .bc_avatar,
+.my_friends .my_friends-ul .bc_avatar,
+.my_groups .my_groups-ul .bc_avatar,
+.my_group .my_group-ul .bc_avatar,
+.group_users .group_users-ul .bc_avatar,
+.user_groups .user_groups-ul .bc_avatar,
+.my_messages .my_messages-ul .bc_avatar,
+.my_activity .my_activity-ul .bc_avatar,
+.my_blogs .my_blogs-ul .bc_avatar {
+    float: left;
+}
+
+.my_member .my_member-ul li .user-infos,
+.my_members .my_members-ul li .user-infos,
+.my_notifications .my_notifications-ul li .notification-infos,
+.my_friends .my_friends-ul li .user-infos,
+.my_groups .my_groups-ul li .group-infos,
+.my_group .my_group-ul li .group-infos,
+.group_users .group_users-ul li .user-infos,
+.user_groups .user_groups-ul li .group-infos,
+.my_messages .my_messages-ul li .message-infos,
+.my_activity .my_activity-ul li .activity-infos,
+.my_blogs .my_blogs-ul li.blog-infos {
+    position: relative;
+}
+
+.my_member .my_member-ul li .user-infos h4,
+.my_members .my_members-ul li .user-infos h4, 
+.my_friends .my_friends-ul li .user-infos h4,
+.my_groups .my_groups-ul li .group-infos h4,
+.group_users .group_users-ul li .user-infos h4,
+.user_groups .user_groups-ul li .group-infos h4,
+.my_group .my_group-ul li .group-infos h4,
+.my_blogs .my_blogs-ul li .blog-infos h4 {
+    clear:none;
+    margin:0;
+}
+
+.my_member .my_member-ul .user-infos,
+.my_members .my_members-ul .user-infos,
+.my_notifications .my_notifications-ul .notification-infos,
+.my_friends .my_friends-ul .user-infos,
+.my_groups .my_groups-ul .group-infos,
+.group_users .group_users-ul .user-infos,
+.user_groups .user_groups-ul .group-infos,
+.my_group .my_group-ul .group-infos,
+.my_activity .my_activity-ul .activity-infos,
+.my_blogs .my_blogs-ul .blog-infos {
+    margin: 0 0 0 70px;
+}
+
+.my_messages .my_messages-ul .message-infos {
+    margin: 0 0 0 45px;
+}
+
+.my_members .featured .my_members-ul li,
+.my_groups .featured .my_groups-ul li,
+.my_blogs .featured .my_blogs-ul li {
+    background-color:#FFFCCF;
+}
+
+.my_member .my_member-ul .xprofile_thead {
+    display:inline-block;
+    margin:0 5px 0 0;
+    font-weight: bold;
+}
+
+.my_activity .my_activity-ul .activity-infos a.activity-time-since {
+    color: #aaa;
+}
+.my_activity .my_activity-ul .activity-infos img.avatar {
+    float: none !important;
+    margin: 0 5px -8px 0 !important;
+}
+
+.my_activity .my_activity-ul div.activity-content img.thumbnail {
+    border: 2px solid #eee;
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.my_restrict_message { 
+    display: block;
+    border:solid 1px #E1CA82;
+    border-radius:3px;
+    padding: 10px 15px;
+    background-color: #FFEAA6; 
+    width:80%; 
+    margin:1em auto;
+}
+
+/* administration */
+
+.dashboard_page_bowecodes-editor #adminmenuwrap,
+.dashboard_page_bowecodes-editor #adminmenuback,
+.dashboard_page_bowecodes-editor #wpfooter{
+    display: none;
+}
+
+.dashboard_page_bowecodes-editor #wpcontent {
+    margin-left:1em;
+}
+
+.dashboard_page_bowecodes-editor table.form-table input.required {
+    border-color:#E1CA82;
+}
+
+html.wp-toolbar{
+    padding-top:0!important;
+}
